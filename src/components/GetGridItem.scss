@@ -1,0 +1,52 @@
+
+.loading-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(11, 11, 11, 0.5);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+.grid_item div:not(.loading-overlay)  {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 0;
+    height: 20%;
+    width: 100%;
+    background-color: #ccc;
+    box-sizing: border-box;
+    white-Space: nowrap;
+  
+    .PointList {
+      width: 280px;
+    }
+  
+  
+    .btn-select {
+      height: 30px;
+      padding: 0 12px;
+      background-color: #0077ff;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+  
+  }
+  
+.focusSvg{
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  margin-top: 5px;
+}

@@ -1,0 +1,103 @@
+.Home-container {
+    //  height: 100vh;
+    //  display: flex;
+    //  flex-direction: column;
+  
+    .title {
+      // height: 4vh;
+      background-color: #bfbbbb;
+      p{margin: 0; padding: 0;} 
+    }
+  
+    .content {
+      // height: 50vh;
+      // display: flex;
+  
+      .buttons {
+        // height: 100%;
+        // width: 4.1vw;
+        // margin: 2px; /* 添加间隔 */
+       // flex-direction: column;
+
+        .buttons-Graphic{
+          border-bottom: 2px solid transparent; /* 初始时底部边框样式为隐藏 */
+          // height: 6%;
+          position: relative;
+          background-color: #bfbbbb;
+          text-align:center;
+          font-size: 13px;
+        }
+
+        .buttons-Graphic-hovered{
+          border-bottom: 2px solid black;
+          // height: 6%;
+          position: relative;
+          background-color: #bfbbbb;
+          text-align:center;
+          font-size: 13px;
+        }
+    
+        .dropdown-menu {
+          // width: 4.1vw;
+          //display: flex;
+          //flex-direction: column;
+          font-size: 15px;
+          text-align:center;
+        }
+        .dropdown-option:hover {
+          background-color: rgb(246, 246, 242);
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+  
+      .image-div{
+        //flex-direction: column;
+        .image-title {
+          // height:  6%;
+          // width: 91.8vw;
+          background-color: #bfbbbb;
+        }
+        // .image {
+        //   // height: 94%;
+        //   // width: 91vw;
+        // }
+
+      }
+
+    }
+  
+    .subcontent {
+      // height: 30vh;
+      
+      .subcontent-title {
+        // height: 10%;
+        // width: 100%;
+        background-color: #bfbbbb;
+       // display: flex;
+       justify-content: space-between;
+      }
+  
+      .subcontent-body {
+        // height: 95%;
+        // width: 100%;
+        // display: flex;
+        margin: 2px; 
+  
+        // .subcontent-item {
+        //     // height: 100%;
+        //     // flex-basis: 25%;
+        //    // margin: 0.3%; /* 添加间隔 */
+            
+        //     // &:last-child {
+        //     //   margin-right: 0; /* 去除最后一个元素的右侧间隔 */
+        //     // }
+        //   }
+      }
+    }
+  }
+
+  #load-time{
+    right: 0px;
+    top:0;
+  }
